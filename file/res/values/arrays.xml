@@ -1,0 +1,9 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <string-array name="sinopsis_Hunter">
+        <item>Hunter X Hunter Synopsis</item>
+    </string-array>
+    <string-array name="sinopsis_Bleach">
+        <item>Hunter X Hunter Synopsis</item>
+    </string-array>
+</resources>

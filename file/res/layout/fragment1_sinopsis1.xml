@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutHunter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/HunterSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/huntersinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisHunter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_hunterx"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBleach"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/BleachSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bleachsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisBleach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_bleach"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNanatsu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/NanatsuSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/nanatsusinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisNanatsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_nanatsu"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutOnepiece"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/OnepieceSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/onepiecesinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisOnepiece"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_onepiece"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDigimon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/DigimonSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/digimonsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisDigimon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_digimon"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSamurai"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Samuraisinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/samuraisinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisSamurai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_samurai"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNaruto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/NarutoSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/narutosinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisNaruto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_naruto"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDororo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/DororoSinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/dororosinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisDororo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_dororo"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSpyxfamily"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Spyxsinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/spyxsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisSpyxfamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_spyxfamily"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutRezero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Rezerosinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/rezerosinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisRezero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_rezero"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Saosinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/saosinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisSao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_sao"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Tatesinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/tatesinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisTate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_tate"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSlime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Slimesinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/slimesinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisSlime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_slime"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutOverlord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Overlordsinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/overlordsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisOverlord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_overlord"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNogame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Nogamesinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/nogamesinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisNogame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_nogame"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTsukimichi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Tsukimichisinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/tsukimichisinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisTsukimichi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_tsukimichi"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutIsekaicheat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Isekaicheatsinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/isekaicheatsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisIsekaicheat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_isekaicheat"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDeadmarch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Deadmarchsinopsis"
+            android:layout_width="410dp"
+            android:layout_height="300dp"
+            android:src="@drawable/deadmarchsinopsis">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sinopsisDeadmarch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sinopsis_deadmarch"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
