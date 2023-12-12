@@ -26,6 +26,11 @@
 <br>
 <br>
 
+## Hasil
+
+<img src="gambar/hasil.gif" alt="Deskripsi GIF" width="300"/>
+<br>
+<br>
 <video width="320" height="240" controls>
   <source src="gambar/Screenrecorder-2023-12-12-14-54-54-478.mp4" type="video/mp4">
 </video>
